@@ -1,0 +1,23 @@
+form {
+    display: grid;
+    label {
+        font-size: 14px;
+        color: $textColor;
+        font-weight: 500;
+        margin-bottom: 12px;
+    }
+    input {
+        width: 100%;
+        height: 55px;
+    }
+    input, textarea {
+        border-radius: 10px;
+        border: 1px solid #C8D0DA;
+        padding-left: 12px;
+        margin-bottom: 12px;
+    }
+    textarea {
+        padding-top: 12px;
+        resize: none;
+    }
+}

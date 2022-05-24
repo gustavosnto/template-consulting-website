@@ -1,0 +1,23 @@
+ header.head {
+    width: 100%;
+    padding: 12px 0;
+    .container {
+        @include flexBetween; 
+    }
+    nav.main-nav {
+        display: flex;
+        align-items: center;
+        @media (max-width: 768px) {
+            display: none;
+        }
+        ul {
+            display: flex;
+            margin-right: 32px;
+            li {
+                &:not(:first-child) {
+                    padding-left: 12px;
+                }
+            }
+        }
+    }
+ }

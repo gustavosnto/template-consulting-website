@@ -1,0 +1,9 @@
+.btn {
+    padding: 16px 32px;
+    border-radius: 10px;
+    display: inline-block;
+    &-default {
+        color: $white;
+        background-color: $primaryColor;
+    }
+}
